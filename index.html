@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Automatech</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <style>
@@ -37,6 +37,18 @@
     -webkit-box-flex: 1;
     flex: 1;
   }
+  @font-face {
+    font-family: 'FontAwesome';
+    src: url('fonts/fontawesome-webfont.eot');
+    src: url('fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/fontawesome-webfont.woff2') format('woff2'),
+        url('fonts/fontawesome-webfont.woff') format('woff'),
+        url('fonts/fontawesome-webfont.ttf') format('truetype'),
+        url('fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   @media (min-width: 768px) {
     .flex-md-equal > * {
       -ms-flex: 1;
@@ -287,7 +299,7 @@
 </div>
 
 <a href="https://api.whatsapp.com/send?phone=+541165754612&text=Hola,%20quiero%20más%20información%20sobre%20los%20servicios" class="whatsapp-button" target="_blank">
-  <i class="whatsapp-icon fa fa-whatsapp"></i>
+  <i class="fa fa-phone whatsapp-icon"></i>
 </a>
 
 <footer class="text-center py-4 bg-dark text-light">
